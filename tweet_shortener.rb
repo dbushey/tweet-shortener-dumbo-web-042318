@@ -18,12 +18,10 @@ def word_substituter(str)
   final_str = ""
   arr = str.split(" ")
 
-  binding.pry
+  arr.collect do |w|
+    if w ==
 
-  # arr.each do |w|
-  #   if w ==
-  #
-  # end
+  end
 
 
   #final_str
