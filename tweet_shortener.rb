@@ -14,12 +14,11 @@ def dictionary
 end
 
 def word_substituter(str)
-  dic = dictionary
   final_str = ""
   arr = str.split(" ")
 
   arr.collect do |w|
-    if w ==
+    if
 
   end
 
