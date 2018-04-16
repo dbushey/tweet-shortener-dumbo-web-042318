@@ -14,14 +14,13 @@ def dictionary
 end
 
 def word_substituter(str)
-  final_str = ""
   arr = str.split(" ")
 
   arr.collect do |w|
-    if
-
-  end
-
-
-  #final_str
+    if dictionary.keys.include?(w.downcase)
+      w = dictionary[w.downcase]
+    else
+      w
+    end
+  end.join(" ")
 end
